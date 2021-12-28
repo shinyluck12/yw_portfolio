@@ -1,5 +1,5 @@
 #### 프론트엔드 분야에 지원하는  
-## 소통이 즐거운 개발자 최연우입니다.  
+## 소통이 즐거운 개발자 최연우의 포트폴리오 설명글입니다.
 <a href="https://github.com/shinyluck12/yw_portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/shinyluck12/yw_portfolio"></a>
 <a href="https://github.com/shinyluck12/yw_portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/shinyluck12/yw_portfolio"></a>
 <a href="https://github.com/shinyluck12/yw_portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/shinyluck12/yw_portfolio"></a>
