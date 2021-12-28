@@ -1,0 +1,277 @@
+/*header start*/ 
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px 0;
+    box-sizing: border-box;  /*안넣어주면 서치가 오른쪽으로 밀려버림 80px 만큼*/
+    z-index: 999999;
+}
+.ham{
+    display: block;
+    width: 25px; height: 2px;
+    background-color: black;
+    margin: 7px 0;
+}
+.h_search{   /*포토샵에서 window-info*/
+    display: block;
+    width: 38px; height: 39px;
+    background-image: url(../img/icons.png);
+    text-indent: -99999px; /*글자를 날려버려라*/
+    background-position: 1px 2px;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*main start*/
+main{
+    position: relative;  /*앱솔루트주면 푸터가 올라와버림*/
+}
+.tween{
+    display: flex;
+}
+.tween>article{
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.L_txt{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;  /*  => 부족하면 밑으로 떨어짐   align-items => 하나의 묶음 이동*/
+    padding-left: 80px;
+}
+.L_txt>h1{
+    width: 486px;
+    margin: auto;
+}
+.L_txt img{
+    width: 284px;
+}
+.L_txt>p{
+    width: 486px;
+    color: #555;
+    margin: 60px auto;
+}
+.L_txt strong{
+    font-weight: 600;
+}
+.bg_img{
+    /* height: 100vh;  화면의 높이에 100% 높이값 가질 수 있게 해줌 */
+    min-height: 100vh;  /*최소 높이값 /  max-height : 최대 높이값 / width도 같음 */
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;   /*패럴렉스*/
+}
+.bg_img1{
+    background-image: url(../img/visual01.jpg);
+    background-position: right top; /*오른쪽이 기준이되어 줄이면 왼쪽이 잘림*/
+    /*  한 번에 넣는법 - 되도록이면 따로따로 줘야 헷갈리지 않음
+    background: url(../img/visual01.jpg) no-repeat auto 100%; */
+}
+
+/*The Life Cosmetic start*/
+.alone1{
+    width: 100%;  /*height말고 위아래 패딩 줄거임*/
+    padding: 240px 0;
+    background-image: url(../img/parallax_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.alone1>h2{
+    text-align: center;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 1.15;  /*조금 더 촘촘하게*/
+}
+.alone1>p{
+    color: #fff;
+    margin: 32px 0 60px;
+    text-align: center;
+}
+.alone1>.btn_bs>a{  /*손모양 버튼 전체에 나타나게 하기 위해*/
+    display: block;
+    margin: auto;
+    border: 1px solid #fff;
+    width: 180px; 
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/*RARA Moments start*/
+.rara>h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    padding: 150px 0 40px;
+}
+.rara>article{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.rara_right{
+    display: flex;
+    background-color: #76887F;
+}
+.rara img{
+    vertical-align: bottom;  /*img 속성은 inline이라 여백이 생김 / 이거쓰면 없어짐 / inline들 위아래 정렬할 때 자주 쓰임 / inline 태그들의 세로정렬*/
+}
+.rara_img2{
+    display: flex;
+}
+.rara_r_txt1{
+    /*패딩 주거나 height 값 calc로 넣거나*/
+    height: calc(100% - 228px);
+    padding: 160px 24px 0;
+    box-sizing: border-box;
+}
+.rara_r_txt1>p{
+    font-size: 100%;
+    color: #fff;
+}
+.rara_r_txt1>a{
+    color: #fff;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.rara_r_txt2{
+    font-size: 100%;
+    color: #fff;
+    font-weight: 300;
+    padding: 40px 60px;
+}
+/*Skin Care Start*/
+.bg_img2{
+    background-image: url(../img/visual03.jpg);
+    background-position: left top;
+}
+.C_txt, .F_txt{
+    padding: 0 58px;
+    padding-top: calc(50% - 100px);
+}
+.C_title, .F_title{
+    width: 486px;
+    margin: auto;
+    padding: calc(50% + 200px) 0;
+}
+.C_title>h2, .F_title>h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.C_title>p, .F_title>p{
+    margin: 20px 0 60px;
+}
+.C_title>button, .F_title>button{
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid #b3b3b3;
+    width: 120px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 100%;
+}
+.content{
+    width: 558px;
+}
+.content>figure{
+    display: flex;
+}
+.content figure>figcaption{
+    padding: 0 30px;
+}
+.right{
+    text-align: right;
+}
+.content h3{
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.content p{
+    color: #555;
+    margin: 16px 0 32px;
+}
+.content span{
+    display: inline-block;
+    border-bottom: 1px solid #555;
+    cursor: pointer;
+}
+.content ul{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.content ul>li{
+    width: 33.333%;
+    padding: 0 12px;
+}
+.content ul>li>img{
+    width: 100%;
+    background-color: #F9F9F9;
+}
+.content ul>li>p{
+    visibility: hidden;
+    margin: 15px 0;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #555;
+}
+.content ul>li:hover p{
+    visibility: visible;
+}
+.ct2, .ct3, .ct4{
+    padding-top: 120px;
+    padding-left: 58px;
+}
+/*SECTION5 Fragrance START*/
+.bg_img3{
+    background-image: url(../img/visual02.jpg);
+    background-position: right top;
+}
+.ct3, .ct4{
+    margin-left: 120px;
+}
+/*SECTION6 START*/
+.off{
+    max-width: 1200px;
+    padding-top: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+.off>h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.off>p{
+    padding: 16px 0 54px;
+}
+.off a{
+    font-weight: 400;
+    line-height: 1.38;
+    color: #000;
+}
+.s_logo{
+    display: inline-block;
+    background-image: url(../img/icons.png);
+    background-repeat: no-repeat;
+
+    width: 33px; height: 33px;
+}
+
+
+/*footer start*/
+footer{
+    position: relative;   /*알아서 자리를 잡으라고*/
+}

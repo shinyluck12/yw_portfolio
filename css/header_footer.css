@@ -1,0 +1,189 @@
+@import url(//font.elice.io/EliceDigitalBaeum.css);
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff);
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Gosanja", "Elice Digital Baeum";
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+/* footer 하단 고정용 */
+main {
+  flex: 1;
+}
+/* header start */
+#header {
+  background: #111;
+  height: 92px;
+  padding: 0 5%;
+  width: 90%;
+  position: absolute;
+  z-index: 1000;
+}
+.h_inner {
+  max-width: 1040px;
+  height: 100%;
+  margin: 0 auto;
+}
+.h_cont {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#logo {
+  display: block;
+  background-image: url(../img/yw_logo_white.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 70%;
+  width: 150px;
+  height: 92px;
+  transition: 0.3s ease-in-out;
+}
+#logo:hover {
+  opacity: 0.5;
+}
+/* nav start */
+nav {
+  font-family: "Elice Digital Baeum";
+  font-size: 1rem;
+  position: absolute;
+  line-height: 92px;
+  top: 0;
+  right: 0px;
+  z-index: 1000;
+  text-align: center;
+  width: auto;
+  height: 100%;
+}
+#nav {
+  display: flex;
+  border: 0;
+  outline: 0;
+}
+#nav > li {
+  display: inline-block;
+  height: 92px;
+}
+#nav > li > a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 2em;
+  transition: color 0.3s;
+}
+#nav > li > a:hover {
+  color: #757575;
+}
+#nav > li:last-child > a {
+  height: 100%;
+  background-image: url(../img/github-w2.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-y: 50%;
+  image-rendering: -webkit-optimize-contrast;
+  transition: 0.3s ease-in-out;
+}
+#nav > li:last-child > a:hover {
+  opacity: 0.5;
+}
+
+/* footer start */
+footer {
+  font-family: "Elice Digital Baeum";
+  background: #f5f5f5;
+  height: 50px;
+  padding: 40px 5% 0 5%;
+  color: #aaaaaa;
+  font-size: 1.6rem;
+  text-align: center;
+  position: relative;
+  box-shadow: inset 0px 1px 4px 0px rgb(0 0 0 / 10%);
+}
+#inner {
+  z-index: 9999;
+  max-width: 1040px;
+  height: 100%;
+  margin: 0 auto;
+}
+.txt {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  vertical-align: bottom;
+  font-size: 100%;
+}
+.txt_left {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.txt_left > a {
+  display: block;
+  text-decoration: none;
+  color: #aaaaaa;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+.txt_left > a:hover {
+  color: #333;
+}
+.txt_right {
+  display: block;
+  margin: auto;
+  float: right;
+}
+.txt_right > ul {
+  display: flex;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.txt_right > ul > li > a {
+  margin-right: 20px;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+.txt_right > ul > li > a:hover {
+  color: #333;
+  transition: color 0.3s;
+}
+#top {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top: -50px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+.top_btn {
+  cursor: pointer;
+  display: block;
+  background-image: url(../img/top_btn.png);
+  background-repeat: no-repeat;
+  width: 118px;
+  height: 90px;
+  text-indent: -9999px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s;
+}
+.top_btn:hover {
+  bottom: 55px;
+}
+.txt_right li {
+  z-index: 9999;
+}
+.txt_right a {
+  cursor: pointer;
+}

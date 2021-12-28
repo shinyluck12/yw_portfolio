@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "SLEIGothicTTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EliceDigitalBaeum_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EliceDigitalBaeum_Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding-top: 130px;
+  width: 100%;
+  font-family: "SLEIGothicTTF", "EliceDigitalBaeum_Regular",
+    "EliceDigitalBaeum_Bold";
+}
+#wrap {
+  max-width: 86.8%;
+  margin: auto;
+}
+
+/* info section start */
+h1 {
+  font-size: 2.9rem;
+  margin-bottom: 80px;
+}
+h2 {
+  font-family: "EliceDigitalBaeum_Bold";
+  font-size: 0.8rem;
+}
+#info {
+  display: flex;
+  margin-bottom: 73px;
+}
+.info_title {
+  margin-right: 74px;
+}
+.info_inner {
+  display: flex;
+}
+.info_list1 {
+  font-family: "EliceDigitalBaeum_Regular";
+  font-size: 1rem;
+  color: #999;
+  margin-right: 25px;
+}
+.info_list2 {
+  font-family: "EliceDigitalBaeum_Regular";
+  font-size: 1rem;
+}
+.vuetodo {
+  cursor: pointer;
+}
+
+/* screen section start */
+.scr_title {
+  margin-bottom: 100px;
+}
+
+.scr_art1 {
+  width: 85%;
+  margin: auto;
+  display: flex !important;
+  flex-direction: column;
+}
+.scr {
+  box-shadow: 0 0 20px rgb(200, 200, 200);
+  margin-bottom: 111px;
+}
+.scr_main {
+  width: 50%;
+  margin: 0 auto 50px;
+}
+.scr_img {
+  width: 100%;
+}
+.scr img {
+  width: 100%;
+}
