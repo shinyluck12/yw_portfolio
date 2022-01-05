@@ -19,17 +19,16 @@ $(document).ready(function () {
   });
 
   $(".ace_link").click(function () {
-    window.location.href = "http://vampireapire.dothome.co.kr";
+    window.location.href = "http://shinyluck93.dothome.co.kr";
   });
   $(".ace_link11").click(function () {
     window.location.href = "https://github.com/shinyluck12/acebed_clone";
   });
   $(".ace_link2").click(function () {
-    opnNewTab.location.href = "../sub/roundaround/index.html";
+    window.location.href = "../sub/roundaround/index.html";
   });
   $(".ace_link22").click(function () {
-    opnNewTab.location.href =
-      "https://github.com/shinyluck12/roundaround_clone";
+    window.location.href = "https://github.com/shinyluck12/roundaround_clone";
   });
   $(".ace_link3").click(function () {
     window.location.href = "http://vampireapire12.dothome.co.kr";
@@ -38,7 +37,7 @@ $(document).ready(function () {
     window.location.href = "https://github.com/shinyluck12/eoyeomo_clone";
   });
   $(".ace_link4").click(function () {
-    window.location.href = "http://shinyluck93.dothome.co.kr";
+    window.location.href = "http://shinyluck12.dothome.co.kr";
   });
   $(".ace_link44").click(function () {
     window.location.href = "https://github.com/shinyluck12/kumkang_renewal";
